@@ -48,7 +48,7 @@ function createEmployeeList(dtoIn) {
     birthdate = createBirthdateFromAgeRange(dtoIn.age.min, dtoIn.age.max);
     workload = workloads[Math.floor(Math.random() * workloads.length)];
 
-    dtoOut.push({gender, birthdate, name, surname, workload})
+    dtoOut.push({gender, birthdate, name, surname, workload});
   }
 
   return dtoOut;
